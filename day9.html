@@ -1,112 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
     <style>
-        *{
-            padding: 0;
-            margin: 0;
-            font-family: Roboto,Arial,sans-serif;
+         h1{
+            text-align: center;
+            color: purple;
+            font-size: 50px;
         }
-        #navbar {
-            background-color: #2874f0;
-            width: 57px;
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        input[type=submit]
+        {
+            width: 50%;
+            background-color: #003399;
             color: white;
-            display: flex;
-            justify-content: space-evenly;
-            border: 1px solid red;
-        }
-        #navbar> div {
-            display: flex;
-            border: 1px solid red;
-        }
-       #logoDiv {
-        margin-right: 15px;
-        border: 1px solid red;
-       }
-       #logoDiv> div:nth-child(1) {
-        margin-top: 5px;
-       }  
-       #logoDiv>div:nth-child(1)>a{
-        font-size: 22px;
-        font-weight: 800;
-       }
-       #logoDiv>div:nth-child(2)>a {
-        font-size: 12px;
-       }
-       #logoDiv>div:nth-child(2)>a>img{
-        width: 10px;
-        height: 10px;
-       }
-       #searchField{
-        background-color: white;
-        height: 37px;
-        width: 600px;
-        border: 1px solid red;
-        }
-        #searchField> input {
+            padding: 14px 20px;
+            margin: 8px 0;
             border: none;
-            outline: none;
-            height: 100%;
-            width: 90%;
-            margin-left: 3%;
-            color: #b5b5b5;
-            font-size: 14px;
-        }
-        #searchField> i {
-            color: #2874f0;
-        }
-        #navbar> div:nth-child(1)> div:nth-child(2){
-            margin-top: 10px;
-        }
-        #rightSide {
-            display: flex;
-            width: 400px;
-            justify-content: space-around;
-            font-weight: 500;
-            border: 1px solid red;
-        }
-        #rightSide > div {
-            height: 37px;
-            margin-top: 10px;
-            border: 1px solid red;
-        }
-        #rightSide > div > p {
-            border: 1px solid red;
-            margin-top: 7px;
-        }
-        #rightSide > div:nth-child(3) > i,span{
-            margin-top: 10px;
-        }
-        #rightSide> div:nth-child(4) > i,span{
-            margin-top: 10px;
+            border-radius: 4px;
+            font-size: 16px;
+            position: absolute;
+            left: 50%;
+            top: 50;
+            transform: translate(-50%,-50%);
+
+
         }
     </style>
-    <body>
-       <div id="navbar">
-        <div>
-            <div id="logoDiv">
-                <div>
-                    <a><i>Flipkart</i>
-                    </a>
-                </div>
-                <div>
-                    <a>Explore <span style="color: yellow;">Plus</span>
-                    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png" alt="symbol"/>
-                    </a>
-                </div>
-            </div>
-            <div>
-                <div id="searchField">
-                    <input type="text" placeholder="Search for Products,brands and more"/>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div id="rightSide">
-            <div><p>Swaraj</p><
+ </head>
+ <body>
+    <form>
+    <h1><i>eden</i></h1> 
+    <h2>Congratulations,Praful!</h2>
+    <p>You have completed onboarding,you can start using eden</p>
+    
+    <input type="submit" value="Launch eden">
+    </form>
+    </body>
+    </html>
